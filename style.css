@@ -1,0 +1,135 @@
+/*font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+main > img{
+    width: 100%;
+
+    position: absolute;
+    z-index: -1;
+    box-shadow: -1px 1px 3px;
+    
+
+}
+
+main {
+    position: relative;
+    width: 618px;
+    height: 760px;
+    margin: auto;
+    
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px
+
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: -1px;
+
+}
+
+
+
+.page {
+    padding: 50px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.contato h3 {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    background: #dfc7c8;
+
+    width: 100px;
+    padding: 5px;
+    border-radius: 8px;
+
+    margin-bottom: 15px;
+
+}
+
+.contato p {
+    
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+p span img {
+    width: 25px; 
+
+}
+
+.objetivo h3 {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    background: #dfc7c8;
+
+    width: 100px;
+    padding: 5px;
+    border-radius: 8px;
+
+    margin-bottom: 15px;
+    
+}
+
+.objetivo, .formacao {
+
+    width: 495px;
+}
+
+.formacao h3 {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    background: #dfc7c8;
+
+    width: 112px;
+    padding: 5px;
+    border-radius: 8px;
+
+    margin-bottom: 15px
+
+}
+
+.formacao p + p {
+    margin-top: 15px;;
+}
+
+
+.experiencias h3 {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    background: #dfc7c8;
+
+    width: 255px;
+    padding: 5px;
+    border-radius: 8px;
+
+    margin-bottom: 15px
+
+}
